@@ -15,6 +15,7 @@
 #include FT_GLYPH_H
 
 
+
 typedef struct  TGlyph_
 {
 	FT_UInt    index;  /* glyph index                  */
