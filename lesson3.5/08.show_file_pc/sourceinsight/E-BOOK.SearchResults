@@ -1,0 +1,4 @@
+---- ExitDisplay Matches (3 in 3 files) ----
+Draw.c (\\192.168.2.3\win\weidongsan\pro1\lesson3.5\08.show_file_pc\draw):void ExitDisplay(void)
+Draw.h (\\192.168.2.3\win\weidongsan\pro1\lesson3.5\08.show_file_pc\include):void ExitDisplay(void);
+Main.c (\\192.168.2.3\win\weidongsan\pro1\lesson3.5\08.show_file_pc):			ExitDisplay();
