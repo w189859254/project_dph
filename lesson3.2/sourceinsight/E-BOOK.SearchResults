@@ -1,0 +1,6 @@
+---- iPitch Matches (5 in 5 files) ----
+Ascii.c (\\192.168.2.3\win\weidongsan\pro1\lesson3.2\fonts):	ptFontBitMap->iPitch    = 1;
+Draw.c (\\192.168.2.3\win\weidongsan\pro1\lesson3.2\draw):			i = (y - ptFontBitMap->iYTop) * ptFontBitMap->iPitch;
+Fonts_manager.h (\\192.168.2.3\win\weidongsan\pro1\lesson3.2\include):	int iPitch;   		/* 对于单色位图, 两行象素之间的跨度,单位字节 */
+Freetype.c (\\192.168.2.3\win\weidongsan\pro1\lesson3.2\fonts):	ptFontBitMap->iPitch    = g_tSlot->bitmap.pitch;
+Gbk.c (\\192.168.2.3\win\weidongsan\pro1\lesson3.2\fonts):	ptFontBitMap->iPitch    = 2;
