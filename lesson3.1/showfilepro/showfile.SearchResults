@@ -1,0 +1,4 @@
+---- GetDebugOpr Matches (3 in 2 files) ----
+Debug_manager.c (h:\pro\12.show_file_input_netprint\debug):PT_DebugOpr GetDebugOpr(char *pcName)
+Debug_manager.c (h:\pro\12.show_file_input_netprint\debug):		ptTmp = GetDebugOpr(strName);
+Debug_manager.h (h:\pro\12.show_file_input_netprint\include):PT_DebugOpr GetDebugOpr(char *pcName);
