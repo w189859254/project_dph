@@ -7,6 +7,7 @@
 #include <stdio.h>
 #include <string.h>
 
+
 #define FONTDATAMAX 4096
 
 static const unsigned char fontdata_8x16[FONTDATAMAX] = {
