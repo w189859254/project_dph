@@ -23,7 +23,6 @@ unsigned int line_width;
 unsigned int pixel_width;
 
 
-
 /* color : 0x00RRGGBB */
 void lcd_put_pixel(int x, int y, unsigned int color)
 {
