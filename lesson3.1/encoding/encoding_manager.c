@@ -96,7 +96,7 @@ int DelFontOprFrmEncoding(PT_EncodingOpr ptEncodingOpr, PT_FontOpr ptFontOpr)
 		ptTmp = ptEncodingOpr->ptFontOprSupportedHead;
 		if (strcmp(ptTmp->name, ptFontOpr->name) == 0)
 		{
-			/* É¾³ýÍ·½Úµã */
+			/* åˆ é™¤å¤´èŠ‚ç‚¹ */
 			ptEncodingOpr->ptFontOprSupportedHead = ptTmp->ptNext;
 			free(ptTmp);
 			return 0;
@@ -108,7 +108,7 @@ int DelFontOprFrmEncoding(PT_EncodingOpr ptEncodingOpr, PT_FontOpr ptFontOpr)
 		{
 			if (strcmp(ptTmp->name, ptFontOpr->name) == 0)
 			{
-				/* ´ÓÁ´±íÀïÈ¡³ö¡¢ÊÍ·Å */
+				/* ä»Žé“¾è¡¨é‡Œå–å‡ºã€é‡Šæ”¾ */
 				ptPre->ptNext = ptTmp->ptNext;
 				free(ptTmp);
 				return 0;
@@ -157,5 +157,10 @@ int EncodingInit(void)
 	}
 
 	return 0;
+}
+
+void test()
+{
+	printf("its a test\n");
 }
 
